@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build files
+dist/
+build/
+```
+
+### Step 6: Stage and Commit Files
+1. Click the **Source Control** icon in VS Code (left sidebar, looks like branches)
+2. You'll see all your files listed
+3. Click the **"+"** icon next to "Changes" to stage all files
+4. Type a commit message in the text box at the top: `Initial commit - Fusion Fest project`
+5. Click the **checkmark** icon (✓) to commit
+
+### Step 7: Connect to GitHub and Push
+1. In VS Code, press **`Ctrl + Shift + P`**
+2. Type: `Git: Add Remote`
+3. Press Enter
+4. For remote name, type: `origin`
+5. Paste your GitHub repository URL (from Step 3), example:
+```
+   https://github.com/yourusername/fusion-fest-project.git
